@@ -1,0 +1,6 @@
+Change: Validate reshare permissions and attributes based on supershare
+
+This PR uniforms a way reshare permissions and attributes are enforced in a
+reshare scenario by strict subset checking.
+
+https://github.com/owncloud/core/pull/36265
