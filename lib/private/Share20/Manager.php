@@ -1337,7 +1337,7 @@ class Manager implements IManager {
 			$offset += $added;
 
 			// Fetch again $limit shares
-			$shares = $provider->getSharesBy($userId, $shareType, $path, $reshares, $limit, $offset);
+			$shares = $provider->getSharedWith($userId, $shareType, $node, $limit, $offset);
 
 			// No more shares means we are done
 			if (empty($shares)) {
