@@ -232,6 +232,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -317,6 +318,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -402,6 +404,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -487,6 +490,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -665,6 +669,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -899,6 +904,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1017,6 +1023,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1135,6 +1142,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1253,6 +1261,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1371,6 +1380,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1494,6 +1504,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1627,6 +1638,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1760,6 +1772,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -1893,6 +1906,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2025,6 +2039,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2158,6 +2173,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2263,6 +2279,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2378,6 +2395,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2483,6 +2501,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2598,6 +2617,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2703,6 +2723,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2818,6 +2839,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -2957,6 +2979,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -3085,6 +3108,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -3220,6 +3244,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -3351,6 +3376,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -3502,6 +3528,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -3648,6 +3675,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -3794,6 +3822,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -3940,6 +3969,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -4086,6 +4116,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -4232,6 +4263,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -4378,6 +4410,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -4524,6 +4557,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -4670,6 +4704,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -4816,6 +4851,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -4962,6 +4998,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -5108,6 +5145,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -5254,6 +5292,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -5400,6 +5439,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -5546,6 +5586,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -5692,6 +5733,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -5838,6 +5880,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -5984,6 +6027,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -6130,6 +6174,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -6276,6 +6321,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -6422,6 +6468,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -6568,6 +6615,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -6714,6 +6762,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -6860,6 +6909,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -7006,6 +7056,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -7152,6 +7203,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -7305,6 +7357,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 2 --value=federated
   - php occ log:manage --level 2
@@ -7501,6 +7554,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 2 --value=federated
   - php occ log:manage --level 2
@@ -7697,6 +7751,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -7848,6 +7903,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -7999,6 +8055,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -8150,6 +8207,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -8301,6 +8359,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -8447,6 +8506,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -8604,6 +8664,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -8761,6 +8822,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -8918,6 +8980,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -9075,6 +9138,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -9232,6 +9296,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -9389,6 +9454,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -9546,6 +9612,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -9703,6 +9770,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -9860,6 +9928,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -10017,6 +10086,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -10174,6 +10244,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -10331,6 +10402,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -10488,6 +10560,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -10645,6 +10718,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -10802,6 +10876,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -10959,6 +11034,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -11116,6 +11192,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -11273,6 +11350,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -11430,6 +11508,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -11587,6 +11666,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -11744,6 +11824,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -11901,6 +11982,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -12058,6 +12140,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -12215,6 +12298,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -12372,6 +12456,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -12536,6 +12621,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 2 --value=federated
   - php occ log:manage --level 2
@@ -12742,6 +12828,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 2 --value=federated
   - php occ log:manage --level 2
@@ -12948,6 +13035,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -13108,6 +13196,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -13268,6 +13357,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ log:manage --level 2
   - php occ config:list
@@ -13428,6 +13518,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 3 --value=proxy
   - php occ log:manage --level 2
@@ -13594,6 +13685,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 3 --value=proxy
   - php occ log:manage --level 2
@@ -13760,6 +13852,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 3 --value=proxy
   - php occ log:manage --level 2
@@ -13926,6 +14019,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 3 --value=proxy
   - php occ log:manage --level 2
@@ -14077,6 +14171,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 3 --value=proxy
   - php occ log:manage --level 2
@@ -14228,6 +14323,7 @@ steps:
   commands:
   - bash tests/drone/install-server.sh
   - php occ a:l
+  - php occ a:d files_sharing
   - php occ config:system:set trusted_domains 1 --value=server
   - php occ config:system:set trusted_domains 3 --value=proxy
   - php occ log:manage --level 2
