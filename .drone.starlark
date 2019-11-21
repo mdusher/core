@@ -1827,7 +1827,6 @@ def installServer(phpVersion, db, logLevel, federatedServerNeeded = False, proxy
 		'commands': [
 			'bash tests/drone/install-server.sh',
 			'php occ a:l',
-			'php occ a:d files_sharing',
 			'php occ config:system:set trusted_domains 1 --value=server',
 		] + ([
 			'php occ config:system:set trusted_domains 2 --value=federated'
@@ -1925,6 +1924,7 @@ def fixPermissions(phpVersion, federatedServerNeeded):
 		'image': 'owncloudci/php:%s' % phpVersion,
 		'pull': 'always',
 		'commands': [
+			'php occ a:d files_sharing',
 			'chown -R www-data /drone/src'
 		] + ([
 			'chown -R www-data /drone/federated'
