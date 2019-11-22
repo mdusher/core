@@ -104,6 +104,7 @@ config = {
 				'apiWebdavProperties',
 				'apiWebdavUpload',
 			],
+			'filterTags': '~@@files_sharing-app-required',
 		},
 		'apiNotifications': {
 			'suites': [
@@ -165,6 +166,7 @@ config = {
 			},
 			'emailNeeded': True,
 			'useHttps': False,
+			'filterTags': '~@@files_sharing-app-required',
 		},
 		'webUINotifications': {
 			'suites': {
@@ -175,6 +177,7 @@ config = {
 			'extraApps': {
 				'notifications': 'composer install'
 			},
+			'filterTags': '~@@files_sharing-app-required',
 		},
 		'webUIFederation': {
 			'suites': {
@@ -192,7 +195,7 @@ config = {
 			],
 			'emailNeeded': True,
 			'useHttps': False,
-			'filterTags': '@smokeTest&&~@notifications-app-required',
+			'filterTags': '@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required',
 			'runAllSuites': True,
 			'numberOfParts': 3,
 		},
@@ -206,7 +209,7 @@ config = {
 			'emailNeeded': True,
 			'proxyNeeded': True,
 			'useHttps': False,
-			'filterTags': '@smokeTest&&~@notifications-app-required',
+			'filterTags': '@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required',
 			'runAllSuites': True,
 			'numberOfParts': 3,
 		},
@@ -216,7 +219,7 @@ config = {
 			},
 			'proxyNeeded': True,
 			'useHttps': False,
-			'filterTags': '@smokeTest&&~@notifications-app-required',
+			'filterTags': '@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required',
 			'runAllSuites': True,
 			'numberOfParts': 3,
 		},
