@@ -3566,7 +3566,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiAuth
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -3714,7 +3714,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiAuthOcs
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -3862,7 +3862,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiCapabilities
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -4010,7 +4010,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiComments
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -4158,7 +4158,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiFavorites
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -4306,7 +4306,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiMain
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -4454,7 +4454,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiProvisioning-v1
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -4602,7 +4602,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiProvisioning-v2
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -4750,7 +4750,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiProvisioningGroups-v1
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -4898,7 +4898,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiProvisioningGroups-v2
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -5046,7 +5046,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiSharees
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -5194,7 +5194,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiShareManagement
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -5342,7 +5342,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiShareManagementBasic
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -5490,7 +5490,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiShareOperations
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -5638,7 +5638,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiShareReshare
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -5786,7 +5786,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiShareUpdate
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -5934,7 +5934,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiTags
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -6082,7 +6082,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiTrashbin
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -6230,7 +6230,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiVersions
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -6378,7 +6378,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiWebdavLocks
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -6526,7 +6526,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiWebdavLocks2
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -6674,7 +6674,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiWebdavMove
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -6822,7 +6822,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiWebdavOperations
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -6970,7 +6970,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiWebdavProperties
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -7118,7 +7118,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: apiWebdavUpload
     TESTING_REMOTE_SYSTEM: true
     TEST_SERVER_URL: https://server
@@ -8569,7 +8569,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIAddUsers
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -8728,7 +8728,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIAdminSettings
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -8887,7 +8887,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIComments
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -9046,7 +9046,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUICreateDelete
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -9205,7 +9205,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIFavorites
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -9364,7 +9364,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIFiles
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -9523,7 +9523,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUILogin
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -9682,7 +9682,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIManageQuota
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -9841,7 +9841,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIManageUsersGroups
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -10000,7 +10000,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIMoveFilesFolders
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -10159,7 +10159,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIPersonalSettings
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -10318,7 +10318,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIRenameFiles
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -10477,7 +10477,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIRenameFolders
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -10636,7 +10636,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIRestrictSharing
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -10795,7 +10795,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUISettingsMenu
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -10954,7 +10954,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUISharingAcceptShares
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -11113,7 +11113,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUISharingAutocompletion
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -11272,7 +11272,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUISharingInternalGroups
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -11431,7 +11431,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUISharingInternalUsers
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -11590,7 +11590,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUISharingPublic
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -11749,7 +11749,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUITags
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -11908,7 +11908,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUITrashbin
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -12067,7 +12067,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIUpload
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -12226,7 +12226,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIWebdavLockProtection
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -12385,7 +12385,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUIWebdavLocks
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -12551,7 +12551,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: ~@@files_sharing-app-required
+    BEHAT_FILTER_TAGS: ~@files_sharing-app-required
     BEHAT_SUITE: webUISharingNotifications
     BROWSER: chrome
     MAILHOG_HOST: email
@@ -13124,7 +13124,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     BROWSER: firefox
     DIVIDE_INTO_NUM_PARTS: 3
     MAILHOG_HOST: email
@@ -13285,7 +13285,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     BROWSER: firefox
     DIVIDE_INTO_NUM_PARTS: 3
     MAILHOG_HOST: email
@@ -13446,7 +13446,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     BROWSER: firefox
     DIVIDE_INTO_NUM_PARTS: 3
     MAILHOG_HOST: email
@@ -13608,7 +13608,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     BROWSER: chrome
     DIVIDE_INTO_NUM_PARTS: 3
     MAILHOG_HOST: email
@@ -13775,7 +13775,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     BROWSER: chrome
     DIVIDE_INTO_NUM_PARTS: 3
     MAILHOG_HOST: email
@@ -13942,7 +13942,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-webui
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     BROWSER: chrome
     DIVIDE_INTO_NUM_PARTS: 3
     MAILHOG_HOST: email
@@ -14109,7 +14109,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     DIVIDE_INTO_NUM_PARTS: 3
     RUN_PART: 1
     TESTING_REMOTE_SYSTEM: true
@@ -14261,7 +14261,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     DIVIDE_INTO_NUM_PARTS: 3
     RUN_PART: 2
     TESTING_REMOTE_SYSTEM: true
@@ -14413,7 +14413,7 @@ steps:
   - . /drone/saved-settings.sh
   - make test-acceptance-api
   environment:
-    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@@files_sharing-app-required"
+    BEHAT_FILTER_TAGS: "@smokeTest&&~@notifications-app-required&&~@files_sharing-app-required"
     DIVIDE_INTO_NUM_PARTS: 3
     RUN_PART: 3
     TESTING_REMOTE_SYSTEM: true
