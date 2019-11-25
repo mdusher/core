@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c40ce033557c7f9b6dfd5976bbf43b4a",
+    "content-hash": "9c0a2b6dca2095ebf934e96670494a4b",
     "packages": [
         {
             "name": "bantu/ini-get-wrapper",
@@ -1066,7 +1066,7 @@
             "time": "2015-08-01T16:27:37+00:00"
         },
         {
-            "name": "jeremeamia/SuperClosure",
+            "name": "jeremeamia/superclosure",
             "version": "2.4.0",
             "source": {
                 "type": "git",
@@ -2111,16 +2111,16 @@
         },
         {
             "name": "sabre/http",
-            "version": "5.0.2",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabre-io/http.git",
-                "reference": "c9833073175bf02c8550695860fe375e26b68709"
+                "reference": "73e2fa1ef894eddff145b698b6b0e2e2c5bf1d72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/http/zipball/c9833073175bf02c8550695860fe375e26b68709",
-                "reference": "c9833073175bf02c8550695860fe375e26b68709",
+                "url": "https://api.github.com/repos/sabre-io/http/zipball/73e2fa1ef894eddff145b698b6b0e2e2c5bf1d72",
+                "reference": "73e2fa1ef894eddff145b698b6b0e2e2c5bf1d72",
                 "shasum": ""
             },
             "require": {
@@ -2163,7 +2163,7 @@
             "keywords": [
                 "http"
             ],
-            "time": "2019-09-12T15:36:08+00:00"
+            "time": "2019-10-09T20:27:43+00:00"
         },
         {
             "name": "sabre/uri",
@@ -2353,14 +2353,14 @@
             "authors": [
                 {
                     "name": "Evert Pot",
-                    "role": "Developer",
                     "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/"
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Markus Staab",
-                    "role": "Developer",
-                    "email": "markus.staab@redaxo.de"
+                    "email": "markus.staab@redaxo.de",
+                    "role": "Developer"
                 }
             ],
             "description": "sabre/xml is an XML library that you may not hate.",
