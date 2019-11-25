@@ -76,4 +76,3 @@ Feature: upload file
       | dav_version |
       | old         |
       | new         |
-

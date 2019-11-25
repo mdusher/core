@@ -58,7 +58,6 @@ Feature: sharing
     Then as "user0" file "<group_folder>/<receiver_folder>" should exist
     And as "user2" file "<group_folder>/<receiver_folder>" should exist
     Examples:
-      | sharer_folder | group_folder | receiver_folder |
-      | ?abc=oc #     | hari         | # oc?test=oc&a  |
-      | @a#8a=b?c=d   | Bhandari     | ?a#8 a=b?c=d    |
-
+      | sharer_folder | group_folder    | receiver_folder |
+      | ?abc=oc #     | ?abc=oc g%rp#   | # oc?test=oc&a  |
+      | @a#8a=b?c=d   | @a#8a=b?c=d grp | ?a#8 a=b?c=d    |
