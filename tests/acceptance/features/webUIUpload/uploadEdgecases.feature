@@ -114,7 +114,7 @@ Feature: File Upload
     Then file "0" should be listed on the webUI
     And the content of "0" should be the same as the local "0"
 
-  Scenario Outline: upload a file with special characters into a folder with special characters and verify its content
+  Scenario Outline: upload a file with special characters into a folder with special characters using chunking and verify its content
     Given a file with the size of "30000000" bytes and the name "<file-name>" has been created locally
     And user "user1" has created folder <folder-to-upload-to>
     And user "user1" has logged in using the webUI

@@ -54,7 +54,7 @@ Feature: sharing
     Then as "user0" file "<sharer_folder>/<receiver_folder>" should exist
     And as "user1" file "<sharer_folder>/<receiver_folder>" should exist
     When user "user0" shares folder "<group_folder>" with group "grp1" using the sharing API
-    When user "user2" moves folder "<receiver_folder>" to "<group_folder>/<receiver_folder>" using the WebDAV API
+    And user "user2" moves folder "<receiver_folder>" to "<group_folder>/<receiver_folder>" using the WebDAV API
     Then as "user0" file "<group_folder>/<receiver_folder>" should exist
     And as "user2" file "<group_folder>/<receiver_folder>" should exist
     Examples:
