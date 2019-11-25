@@ -104,6 +104,7 @@ Feature: Locks
       | exclusive |
       | shared    |
 
+  @files_sharing-app-required
   Scenario Outline: moving a locked file into an other folder in a public share
     Given user "brand-new-user" has created folder "/simple-folder"
     And user "brand-new-user" has created folder "/simple-folder/simple-empty-folder"
