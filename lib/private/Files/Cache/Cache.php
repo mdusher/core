@@ -80,6 +80,17 @@ class Cache implements ICache {
 	protected $connection;
 
 	/**
+	 * @var IConfig
+	 */
+	protected $config;
+
+	/**
+	 * @var string
+	 */
+	protected $dataDirectory;
+
+
+	/**
 	 * @param \OC\Files\Storage\Storage|string $storage
 	 */
 	public function __construct($storage) {
@@ -95,6 +106,8 @@ class Cache implements ICache {
 		$this->storageCache = new Storage($storage);
 		$this->mimetypeLoader = \OC::$server->getMimeTypeLoader();
 		$this->connection = \OC::$server->getDatabaseConnection();
+		$this->config = \OC::$server->getConfig();
+		$this->dataDirectory = $this->config->getSystemValue('datadirectory', \OC::$SERVERROOT . '/data');
 	}
 
 	/**
@@ -443,7 +456,13 @@ class Cache implements ICache {
 	 * @param string $file
 	 */
 	public function remove($file) {
+		$dataDirErrors = \OC_Util::checkDataDirectoryValidity($this->dataDirectory);
 		$entry = $this->get($file);
+		// Don't perform a delete if $dataDirErrors contains elements
+		if (count($dataDirErrors) > 0) {
+			\OCP\Util::writeLog('filecache', 'Invalid data directory - not removing fileid: ' . $entry['fileid'], \OCP\Util::ERROR);
+			return;
+		}
 		$sql = 'DELETE FROM `*PREFIX*filecache` WHERE `fileid` = ?';
 		$this->connection->executeQuery($sql, [$entry['fileid']]);
 		if ($entry['mimetype'] === 'httpd/unix-directory') {
@@ -471,6 +490,13 @@ class Cache implements ICache {
 	 * @throws \OC\DatabaseException
 	 */
 	private function removeChildren($entry) {
+		$dataDirErrors = \OC_Util::checkDataDirectoryValidity($this->dataDirectory);
+		// Don't perform a delete if $dataDirErrors contains elements
+		if (count($dataDirErrors) > 0) {
+			\OCP\Util::writeLog('filecache', 'Invalid data directory - not removing fileid: ' . $entry['fileid'], \OCP\Util::ERROR);
+			return;
+		}
+
 		$subFolders = $this->getSubFolders($entry);
 		foreach ($subFolders as $folder) {
 			$this->removeChildren($folder);
